@@ -48,9 +48,13 @@ ellipse((324,455,336,480),'#69afbf')
 box((361,663,951,913),'#c47f50','#203842',5,12)
 box((345,644,966,688),'#e3ad70','#203842',5,12)
 line([(401,913),(401,959)],w=12);line([(916,913),(916,959)],w=12)
-# arm sliding review toward employee
-line([(831,558),(872,607),(701,642)],'#203842',40)
-line([(831,558),(872,607),(701,642)],'#9ab9bd',29)
+# clean straight robot arm resting on the desk
+line([(813,570),(813,645),(744,668)],'#203842',42)
+line([(813,570),(813,645),(744,668)],'#9ab9bd',30)
+# small manager coffee mug
+box((865,580,930,640),'#f5f0df','#203842',4,8)
+ellipse((916,592,949,625),'#f5f0df','#203842',4)
+text('BOSS',(897,595),16,center=True)
 # document shown frontward, oversized for instant reading
 box((363,704,940,939),'#fffdf5','#203842',5,10)
 text('PERFORMANCE',(651,729),39,center=True)
